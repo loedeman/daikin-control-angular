@@ -5,7 +5,7 @@
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 8080",
     "test": "karma start",
-    "build": "rimraf dist && cpx src/web_gui/*.php dist/ && webpack --config config/webpack.prod.js --progress --profile --bail"
+    "build": "rimraf dist && cpx src/api/php/*.php dist/api/php/ && cpx src/api/node/*.* dist/api/node/ && webpack --config config/webpack.prod.js --progress --profile --bail"
   },
   "license": "MIT",
   "dependencies": {

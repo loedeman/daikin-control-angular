@@ -4,5 +4,6 @@ import { Injectable } from '@angular/core';
 export class ConfigurationService {
 
     // URLs
-    public ipAddress = '192.168.0.112';
+    public apiUrl = '/api/node/api.js';
+    public aircoIpAddress = '192.168.0.112';
 }

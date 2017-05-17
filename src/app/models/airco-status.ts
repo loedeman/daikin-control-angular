@@ -1,3 +1,9 @@
 export class AircoStatus {
-    rawResponse: string
+    power: number;
+    humidity: number;
+    mode: string;
+    targetTemperature: number;
+    fanRate: string;
+    fanDirection: string;
+    rawResponse: string;
 }
